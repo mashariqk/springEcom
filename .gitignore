@@ -5,3 +5,7 @@
 sample/
 fileForSAP.txt
 /build/
+.idea/
+lib/
+*.iml
+

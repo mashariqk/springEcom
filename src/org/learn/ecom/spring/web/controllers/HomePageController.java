@@ -8,6 +8,12 @@ public class HomePageController {
 
 	@RequestMapping(value="/")
 	public String showMeHome(){
+		System.out.println("Controller is heyah");
 		return "home";
+	}
+
+	@RequestMapping(value = "/denied")
+	public String kickEmOut(){
+		return "accessDenied";
 	}
 }
